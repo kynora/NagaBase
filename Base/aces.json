@@ -1,40 +1,19 @@
 ﻿{
 	"$schema": "../aces.schema.json",
-	
-	"custom": {
+
+	"naga": {
 		"conditions": [
-			{
-				"id": "is-large-number",
-				"scriptName": "IsLargeNumber",
-				"highlight": true,
-				"params": [
-					{
-						"id": "number",
-						"type": "number"
-					}
-				]
-			}
+
 		],
 		"actions": [
 			{
-				"id": "log-to-console",
-				"scriptName": "LogToConsole",
-				"highlight": true
+				"id": "init",
+				"scriptName": "Init",
+				"highlight": false
 			}
 		],
 		"expressions": [
-			{
-				"id": "double",
-				"expressionName": "Double",
-				"highlight": true,
-				"returnType": "number",
-				"params": [
-					{
-						"id": "number",
-						"type": "number"
-					}
-				]
-			}
+			
 		]
 	}
 }

@@ -2,10 +2,10 @@
 	"$schema": "../../behavior.lang.schema.json",
 
 	"languageTag": "en-US",
-	"fileDescription": "Strings for NagaIntObject.",
+	"fileDescription": "Strings for NagaInsObject.",
 	"text": {
 		"behaviors": {
-			"naga_intobject": {
+			"naga_insobject": {
 				"name": "Instance Object",
 				"description": "Instance object.",
 				"help-url": "https://www.elitenaga.com",

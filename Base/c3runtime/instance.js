@@ -1,36 +1,32 @@
 
 const C3 = globalThis.C3;
 
-C3.Plugins.NagaBase.Instance = class NagaBaseInstance extends globalThis.ISDKInstanceBase
+C3.Plugins.Naga_Base.Instance = class NagaBaseInstance extends globalThis.ISDKInstanceBase
 {
 	constructor()
 	{
 		super();
 		
-		// Initialise object properties
-		this._testProperty = 0;
-		
+
 		const properties = this._getInitProperties();
 		if (properties)		// note properties may be null in some cases
 		{
-			this._testProperty = properties[0];
+			
 		}
 	}
+
+	Initialise()
+	{
+			console.log("Naga Base Initialized!");
+	}
+
 	
 	_release()
 	{
 		super._release();
 	}
 
-	_setTestProperty(n)
-	{
-		this._testProperty = n;
-	}
-
-	_getTestProperty()
-	{
-		return this._testProperty;
-	}
+	
 	
 	_saveToJson()
 	{

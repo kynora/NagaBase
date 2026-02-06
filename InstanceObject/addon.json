@@ -5,7 +5,7 @@
 	"sdk-version": 2,
 	"type": "behavior",
 	"name": "Instance Object behavior",
-	"id": "Naga_IntObject",
+	"id": "Naga_InsObject",
 	"version": "1.0.0.0",
 	"author": "Elite Naga",
 	"website": "https://www.elitenaga.com",

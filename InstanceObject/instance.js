@@ -1,9 +1,9 @@
 
 const SDK = globalThis.SDK;
 
-const BEHAVIOR_CLASS = SDK.Behaviors.Naga_IntObject;
+const BEHAVIOR_CLASS = SDK.Behaviors.Naga_InsObject;
 
-BEHAVIOR_CLASS.Instance = class NagaIntObjectInstance extends SDK.IBehaviorInstanceBase
+BEHAVIOR_CLASS.Instance = class NagaInsObjectInstance extends SDK.IBehaviorInstanceBase
 {
 	constructor(sdkBehType, behInst)
 	{

@@ -9,12 +9,12 @@ const SDK = globalThis.SDK;
 // Only the behavior name is displayed in the editor, so to rename your behavior change the name but NOT the ID.
 // If you want to completely replace a behavior, make it deprecated (it will be hidden but old projects keep working),
 // and create an entirely new behavior with a different behavior ID.
-const BEHAVIOR_ID = "Naga_IntObject";
+const BEHAVIOR_ID = "Naga_InsObject";
 ////////////////////////////////////////////
 
 const BEHAVIOR_CATEGORY = "general";
 
-const BEHAVIOR_CLASS = SDK.Behaviors.Naga_IntObject = class NagaIntObject extends SDK.IBehaviorBase
+const BEHAVIOR_CLASS = SDK.Behaviors.Naga_InsObject = class NagaInsObject extends SDK.IBehaviorBase
 {
 	constructor()
 	{

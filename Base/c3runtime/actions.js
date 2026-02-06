@@ -1,10 +1,10 @@
 
 const C3 = globalThis.C3;
 
-C3.Plugins.NagaBase.Acts =
+C3.Plugins.Naga_Base.Acts =
 {
-	LogToConsole()
+	Init()
 	{
-		console.log("This is the 'Log to console' action. Test property = " + this._getTestProperty());
+			this.Initialise();
 	}
 };

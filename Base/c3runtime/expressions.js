@@ -1,10 +1,7 @@
 
 const C3 = globalThis.C3;
 
-C3.Plugins.NagaBase.Exps =
+C3.Plugins.Naga_Base.Exps =
 {
-	Double(number)
-	{
-		return number * 2;
-	}
+
 };
