@@ -1,0 +1,39 @@
+﻿{
+  "$schema": "../aces.schema.json",
+
+  "": {
+    "conditions": [
+      {
+        "id": "isname0",
+        "scriptName": "IsName",
+        "params": [
+          {
+            "id": "name0",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+
+    "actions": [
+      {
+        "id": "set-name",
+        "scriptName": "SetName",
+        "params": [
+          {
+            "id": "name",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "name0",
+        "expressionName": "name",
+        "scriptName": "name",
+        "returnType": "string"
+      }
+    ]
+  }
+}

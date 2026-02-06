@@ -1,0 +1,65 @@
+﻿{
+	"$schema": "../../behavior.lang.schema.json",
+
+	"languageTag": "en-US",
+	"fileDescription": "Strings for NagaIntObject.",
+	"text": {
+		"behaviors": {
+			"naga_intobject": {
+				"name": "Instance Object",
+				"description": "Instance object.",
+				"help-url": "https://www.elitenaga.com",
+				"properties": {
+					"name": {
+						"name": "Name",
+						"desc": "A unique string that identify the object."
+					},
+					"bind-object": {
+						"name": "Bind Object",
+						"desc": "Bind with Javascript object."
+					}
+
+				},
+
+				"aceCategories": {
+				},
+
+				"conditions": {
+					"isname0": {
+						"list-name": "Compare Name",
+						"display-text": "Name = {0}",
+						"description": "Compare the name.",
+						"params": {
+							"name0": {
+								"name": "Name",
+								"desc": "Name"
+							}
+						}
+					}
+
+				},
+
+				"actions": {
+					"set-name": {
+						"list-name": "Set Name",
+						"display-text": "{my} Set name to [i]{0}[/i]",
+						"description": "Set the object's name.",
+						"params": {
+							"name": {
+								"name": "Name",
+								"desc": "New object name."
+							}
+						}
+					}
+				},
+
+				"expressions": {
+					"name0": {
+						"description": "Get the name.",
+						"translated-name": "name"
+					}
+				}
+			}
+			}
+	}
+}
