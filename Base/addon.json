@@ -5,7 +5,7 @@
 	"sdk-version": 2,
 	"type": "plugin",
 	"name": "Naga Base",
-	"id": "Naga_Base",
+	"id": "NagaBase",
 	"version": "1.0.0.0",
 	"author": "Elite Naga",
 	"website": "https://www.elitenaga.com",

@@ -1,7 +1,7 @@
 
 const C3 = globalThis.C3;
 
-C3.Behaviors.Naga_InsObject.Type = class NagaInsObjectType extends globalThis.ISDKBehaviorTypeBase
+C3.Behaviors.InstanceObject.Type = class InstanceObjectType extends globalThis.ISDKBehaviorTypeBase
 {
 	constructor()
 	{

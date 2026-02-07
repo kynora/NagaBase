@@ -2,12 +2,12 @@
 	"$schema": "../../behavior.lang.schema.json",
 
 	"languageTag": "en-US",
-	"fileDescription": "Strings for NagaInsObject.",
+	"fileDescription": "Strings for Instance Object.",
 	"text": {
 		"behaviors": {
-			"naga_insobject": {
+			"instanceobject": {
 				"name": "Instance Object",
-				"description": "Instance object.",
+				"description": "Instance Object.",
 				"help-url": "https://www.elitenaga.com",
 				"properties": {
 					"name": {

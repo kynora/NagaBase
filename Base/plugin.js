@@ -9,12 +9,12 @@ const SDK = globalThis.SDK;
 // Only the plugin name is displayed in the editor, so to rename your plugin change the name but NOT the ID.
 // If you want to completely replace a plugin, make it deprecated (it will be hidden but old projects keep working),
 // and create an entirely new plugin with a different plugin ID.
-const PLUGIN_ID = "Naga_Base";
+const PLUGIN_ID = "NagaBase";
 ////////////////////////////////////////////
 
 const PLUGIN_CATEGORY = "general";
 
-const PLUGIN_CLASS = SDK.Plugins.Naga_Base = class Naga_Base extends SDK.IPluginBase
+const PLUGIN_CLASS = SDK.Plugins.NagaBase = class NagaBasePlugin extends SDK.IPluginBase
 {
 	constructor()
 	{
@@ -32,7 +32,7 @@ const PLUGIN_CLASS = SDK.Plugins.Naga_Base = class Naga_Base extends SDK.IPlugin
 		SDK.Lang.PushContext(".properties");
 		
 		this._info.SetProperties([
-			new SDK.PluginProperty("integer", "test-property", 0)
+
 		]);
 		
 		SDK.Lang.PopContext();		// .properties

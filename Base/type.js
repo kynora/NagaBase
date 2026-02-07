@@ -1,9 +1,9 @@
 
 const SDK = globalThis.SDK;
 
-const PLUGIN_CLASS = SDK.Plugins.Naga_Base;
+const PLUGIN_CLASS = SDK.Plugins.NagaBase;
 
-PLUGIN_CLASS.Type = class NagaBasePluginType extends SDK.ITypeBase
+PLUGIN_CLASS.Type = class NagaBaseType extends SDK.ITypeBase
 {
 	constructor(sdkPlugin, iObjectType)
 	{

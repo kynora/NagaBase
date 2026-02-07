@@ -5,7 +5,7 @@
 	"fileDescription": "Strings for NagaBasePlugin.",
 	"text": {
 		"plugins": {
-			"naga_base": {
+			"nagabase": {
 				"name": "Naga Base",
 				"description": "Plugin for Elite Naga.",
 				"help-url": "https://www.elitenaga.com",

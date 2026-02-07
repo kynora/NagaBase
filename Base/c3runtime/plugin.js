@@ -1,7 +1,7 @@
 
 const C3 = globalThis.C3;
 
-C3.Plugins.Naga_Base = class NagaBasePlugin extends globalThis.ISDKPluginBase
+C3.Plugins.NagaBase = class NagaBasePlugin_C3 extends globalThis.ISDKPluginBase
 {
 	constructor()
 	{

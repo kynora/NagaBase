@@ -1,7 +1,7 @@
 
 const SDK = globalThis.SDK;
 
-const PLUGIN_CLASS = SDK.Plugins.Naga_Base;
+const PLUGIN_CLASS = SDK.Plugins.NagaBase;
 
 PLUGIN_CLASS.Instance = class NagaBaseInstance extends SDK.IInstanceBase
 {
